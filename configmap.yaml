@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-msvc-usuarios
+data:
+  port: "8001"
+  db_host: mysql8:3306
+  database: db_msvc_usuarios
+  #username: root
+  #password:
+  curso_url: msvc_usuarios:8002
+  application.yaml: |-
+    config:
+      texto: Configurando ambiente por defecto
+    ---
+    spring:
+      config:
+        activate:
+          on-profile: dev
+    config:
+      texto: Configurando Ambiente de Desarrollo
+    ---
+    spring:
+      config:
+        activate:
+          on-profile: prod
+    config:
+      texto: Configurando Ambiente de Produccion
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-msvc-cursos
+data:
+  port: "8002"
+  db_host: postgres14:5432
+  database: db_msvc_cursos
+  #username: postgres
+  #password: "123456"
+  usuario_url: msvc_cursos:8001

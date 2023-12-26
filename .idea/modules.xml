@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/curso-kubernetes.iml" filepath="$PROJECT_DIR$/curso-kubernetes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msvc-cursos/msvc-cursos.iml" filepath="$PROJECT_DIR$/msvc-cursos/msvc-cursos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msvc-usuarios/msvc-usuarios.iml" filepath="$PROJECT_DIR$/msvc-usuarios/msvc-usuarios.iml" />
+    </modules>
+  </component>
+</project>

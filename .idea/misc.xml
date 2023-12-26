@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> e10333b1c143386e21aed0e56980bafa12d37e59
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="18" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK" />
+>>>>>>> e10333b1c143386e21aed0e56980bafa12d37e59
+</project>
