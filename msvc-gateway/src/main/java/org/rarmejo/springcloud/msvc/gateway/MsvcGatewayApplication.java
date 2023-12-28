@@ -1,4 +1,4 @@
-package org.robert.springcloud.msvc.gateway;
+package org.rarmejo.springcloud.msvc.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

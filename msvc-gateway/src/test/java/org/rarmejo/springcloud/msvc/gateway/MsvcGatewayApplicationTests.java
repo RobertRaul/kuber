@@ -1,4 +1,4 @@
-package org.robert.springcloud.msvc.gateway;
+package org.rarmejo.springcloud.msvc.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
